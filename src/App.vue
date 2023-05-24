@@ -1,6 +1,17 @@
+<script setup lang="ts">
+</script>
+
 <template>
-  <main font-sans p="x-4 y-10" text="center gray-700 dark:gray-200">
-    <RouterView />
-    <TheFooter />
-  </main>
+  <div m2 border="~ gray/20">
+    <ActionBar />
+    <TimeSchedular />
+  </div>
 </template>
+
+<style>
+html {
+  background: #222;
+  color: white;
+  color-scheme: dark;
+}
+</style>

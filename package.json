@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.1.2",
+    "fuse.js": "^6.6.2",
+    "timezones.json": "^1.7.0",
     "vue": "^3.3.4",
     "vue-router": "^4.2.1"
   },
