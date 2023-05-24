@@ -4,8 +4,6 @@ import { zones } from '~/composoables/state'
 
 <template>
   <div>
-    <pre>
-      {{ zones }}
-    </pre>
+    <pre>{{ zones }}S</pre>
   </div>
 </template>
