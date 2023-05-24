@@ -39,11 +39,11 @@ function onKeyDown(e: KeyboardEvent) {
     >
     <div
       v-show="input"
-      border="~ base" bg-base absolute left-0 right-0 top-full max-h-100 overflow-auto p1
+      border="~ base rounded" bg-base absolute left-0 right-0 top-full z-10 max-h-100 overflow-auto shadow
     >
       <button
         v-for="i, idx of searchResult"
-        :key="i.refIndex" block w-full
+        :key="i.refIndex" block w-full px2
         :class="idx === index ? 'bg-gray:10' : ''"
         @click="add(i.item)"
       >
