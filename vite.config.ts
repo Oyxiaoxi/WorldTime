@@ -53,7 +53,13 @@ export default defineConfig({
 
     // https://github.com/antfu/unocss
     // see uno.config.ts for config
-    UnoCSS(),
+    UnoCSS({
+      shortcuts: {
+        'border-base': 'border-gray/20 dark:border-gray/15',
+        'bg-base': 'bg-white dark:bg-truegray-900',
+        'bg-canvas': 'bg-gray/15 dark:bg-truegray-800',
+      },
+    }),
   ],
 
   // https://github.com/vitest-dev/vitest
